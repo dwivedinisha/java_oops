@@ -11,6 +11,11 @@ public class room {
 		catch(ArithmeticException e) {
 			System.out.println("error ocurred");
 		}
-		
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println(e);
+		}
+		finally {
+			System.out.println("End of program");
+		}
 	}
 }
